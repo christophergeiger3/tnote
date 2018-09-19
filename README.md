@@ -1,6 +1,6 @@
 ## tnote
 
-[![GitHub license](https://img.shields.io/pypi/l/pyzipcode-cli.svg)](https://img.shields.io/pypi/l/pyzipcode-cli.svg) [![Supported python versions](https://img.shields.io/pypi/pyversions/Django.svg)]([![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()) [![Join the chat at https://gitter.im/prodicus/tnote](https://badges.gitter.im/prodicus/tnote.svg)](https://gitter.im/prodicus/tnote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![GitHub license](https://img.shields.io/pypi/l/pyzipcode-cli.svg)](https://img.shields.io/pypi/l/pyzipcode-cli.svg) [![Supported python versions](https://img.shields.io/pypi/pyversions/correspondDjango.svg)]([![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()) [![Join the chat at https://gitter.im/prodicus/tnote](https://badges.gitter.im/prodicus/tnote.svg)](https://gitter.im/prodicus/tnote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ```
                             _________ _        _______ _________ _______ 
@@ -70,10 +70,16 @@ Need I say more?
 
 **NOTE** 
 
-On **linux** system, install `libsqlcipher-dev` 
+On **Ubuntu/Debian** system, install `libsqlcipher-dev` 
 
 ```sh
 $ sudo apt-get install libsqlcipher-dev
+```
+
+On **Manjaro/Arch** system, install 'sqlcipher':
+
+```sh
+$ yaourt -S sqlcipher
 ```
 
 On **Mac OS** systems, you can install it by 
